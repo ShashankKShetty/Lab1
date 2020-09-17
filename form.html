@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Sample Form
+        </title>
+        <style>
+            body{
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sample Form</h1>
+        
+        <form method="GET" action="form-submit.html">
+            <fieldset>
+                <label>Full Name</label>
+                <input type="text" name="fullname">
+                
+                <label>Date Of Birth</label>
+                <input type="date" name="dob">
+
+                <label>Email</label>
+                <input type="email" name="email">
+
+
+            </fieldset>
+
+            <fieldset>
+                <input type ="radio" name = "gender" value="Male">
+                <label>Male</label>
+
+                <input type ="radio" name = "gender" value="FeMale">
+                <label>FeMale</label>
+
+                <label>Semester</label>
+                <label>Fall</label>
+
+                <input type ="checkbox" name = "Semester" value="Fall">
+                <label>Summer</label>
+                <input type ="checkbox" name = "Semester" value="Summer">
+                
+            </fieldset>
+
+            <fieldset>
+                <select name="type">
+                    <option>Full-Time</option>
+                    <option>Part-Time</option>
+                </select>
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        
+        </form>
+
+        <footer>
+            <a href="index.html">Back</a>
+        </footer>
+
+    </body>
+
+</html>
